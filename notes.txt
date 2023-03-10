@@ -1,0 +1,340 @@
+NOTES: 17-02-2023
+
+Web
+    Languages
+        - How Many?
+            - Markup
+                - Placeholder
+            - Scripting
+                - functionality
+                    - client
+                        - JavaScript
+                    - server
+                        - NodeJs
+                        - Elixir
+            - Programming
+                - pure
+                    - functionality + little more complex
+            - Querying
+                - T-SQL
+
+Syntax:
+    - Structure / Protocol / Pattern / Procedure
+
+HTML Syntax:
+    - Tags aka Elements aka Containers
+        <TAGNAME>
+            ......
+        </TAGNAME>
+
+        - 2 Types
+            - Paired
+                <TAGNAME> => opening tag
+                    ... content / container / tag ... 
+                </TAGNAME> => closing tag
+            - Unpaired (Self Closing)
+                <TAGNAME>
+                or
+                <TAGNAME />
+
+Basic Coding Standards
+    - Naming Conventions
+        - Folder and File Names
+            - should do:
+                - give meaningful names
+                - pattern
+                    - 6 cases
+                        - lower camel case
+                            firstProjectAssignment
+                        - upper camel case
+                            FirstProjectAssignment
+                        - lowercase
+                            firstprojectassignment
+                        - uppercase
+                            FIRSTPROJECTASSIGNMENT
+                        - snake case
+                            first_project_assignment
+                        - dash case
+                            first-project-assignment
+            - should not do:
+                - dont start with numbers
+                - DONT USE SPACES
+                - dont give random names / unnecessary
+                    - project1 / project2
+                    - assignment1 / assignment2 / 3rdassignment / fourthassignment
+    
+    - Code Indent
+        - 4 spaces => 1 tab space
+        - can be customized (2 spaces)
+
+Folder Structure
+    - Main Folder / Root Folder
+        - All development files will be in the root/main folder
+            .html
+        - All support files
+            - all those files will go inside their corresponding folders
+
+    - HTML-Project
+        css/
+        js/
+        images/
+        .html
+        .html
+        .html
+
+        assets/
+            css/
+            js/
+            images/
+        .html
+        .html
+        .html
+
+IDE vs Editor
+    - Integrated Development Environment
+
+
+
+NOTES: 18-02-2023
+
+SEO
+    - Search Engine Optimization
+
+Deprecated
+    - Marked for deletion in the next version/upgrade
+
+HTML Attributes
+    - Paired (Attributes=Behaviour)
+    - Unpaired (Self Closing) (Attribute)
+
+    - Core
+        id
+        style
+        class
+        title
+    - Generic
+        align
+        border
+        cellspacing
+        cellpadding
+        width
+        height
+        src
+    - Custom
+        any attribute that starts "data-<custom name>"
+
+HTML Tags
+    - Block
+        - which occupies the entire of the parent container, irrespective of the content
+    - Inline
+        - whatever the content size, is your container size
+
+
+NOTES: 24-02-2023
+
+Path
+    - Absolute Path
+        - never ever use Absolute path in your files (web development)
+    - Relative Path
+        - always better...
+    - Full Path
+        - depends... better for full website links
+
+
+NOTES: 25-02-2023
+
+Named Anchor:
+    - pick you own topic
+
+Layout:
+    - What is layout actually?
+        - Blueprint of a webpage/website
+    
+    - Types
+        - Fluid
+            100% of the screen's width
+        - Box
+            defined size will be lesser than the screen size
+
+This week's template conversion:
+https://srinanoo.github.io/templates/templates/meet-me.png
+
+Forms:
+    HTTP GET (default)
+        - ?txtUsername=xddsgs&paPassword=45435
+            - you see "?" (question mark)
+                - querystring
+                - and each name/value pair, there is this separator ( & ) (or separator aka delimiter)
+    HTTP POST
+
+
+Encoding -> Decoded
+    - is done by the system
+
+Encryption -> Decryption
+
+Forms:
+    - How many forms we know?
+        - Login
+        - MCQ
+        - Search
+        - Suggestion
+        - Hospital (Admission, Consultation, Discharge)
+        - ID Card (School, College, Company)
+        - Application
+        - Feedback
+        - Registration
+        - Sign In
+        - Sign Up
+        - Admission
+        - Declaration
+        - Payment
+        - Purchase / Order
+        - Donation / Charity
+        - Reservation Flight / Train / Bus / Cruise / Cabs / Auto / Bike / Hotels / Restaurants
+        - Resolution / Support
+        - Audit
+        - Log/Time Sheet
+        - Contact
+        - Selection
+        - Medical OP / Test / Bill / Claiming
+        - Insurance Registration / Renewal / Claiming / Dispute / Bond / Cancellation / Reinstating
+        - Invoice
+        - Newsletter Subscription
+        - Attendance
+        - Advertisement
+        - Service Car / Bike / Gadgets / Jet
+        - Guidance
+        - Scheduling
+        - Request
+        - Appointment / Resignation
+        - Compensation / Reimbursement
+        - Leave Application
+        - Employee
+        - Investigator / Suspect / Background / Legal
+        - Bank Opening / Deposit / Withdrawal / Surrender / Update / Closure / Fradualent / Loan / Cheque
+        - Govt License / Passport / Aadhaar / Pan / IT / Voter Id / Ration / Border Pass / Voting / PPF / Retirement / Birth / Death / Marriage / Heir / Adoption / Divorce / Immigrate / Community / Native / Graduate / Visa / Green Card / Millitary
+        - Profile
+        - Dashboard
+        - Rental
+
+        = 100 FORMS
+            Align Associate
+
+
+NOTES: 03-03-2023
+
+HTML Tags
+    - Block
+        which occupies the entire row of the parent container
+    - Inline
+        whatever the content size is your container size
+
+NOTES: 05-03-2023
+
+Selectors:
+    - universal
+    - type
+    - class
+    - id
+    - attribute
+        - [attribute]
+        - [attribute=value]
+        - selector[attribute]
+        - selector[attribute=value]
+    - descendant
+    - child
+    - sibling
+    - adjcaent
+
+CSS Basics:
+    Measurements
+        - in HTML
+            %
+            px
+        
+        - in CSS
+            % - percent
+            px - pixel
+            pt - points (fonts/text)
+            em - relative
+            rem - relative root
+
+            vw - viewport width
+            vh - viewport height
+
+            mm
+            cm
+            in
+            pc
+
+    Colors
+        - how many basic colors?
+            - 2 basic colors
+                = black and white
+
+        - How many which is supported?
+            - Millions
+
+        - In CSS
+            - Named Colours (16)
+
+            - RGB (Red + Green + Blue)
+                - % (0 - 100)
+                    rgb(%, %, %)
+                        rgb(0, 0, 0) = black
+                        rgb(100%, 100%, 100%) = white
+                - value (0 - 255)
+                    rgb(0-255, 0-255, 0-255)
+                        rgb(0, 0, 0) = black
+                        rgb(255, 255, 255) = white
+
+            - RGBA (Red + Green + Blue + Alpha) (Alpha aka Opacity aka Transparency)
+                - % (0 - 100)
+                    rgba(%, %, %, %)
+                        rgba(0, 0, 0, 0) = black
+                        rgba(100%, 100%, 100%, 100%) = white
+                - value (0 - 255)
+                    rgba(0-255, 0-255, 0-255, 0-1)
+                        rgba(0, 0, 0, 0) = black
+                        rgba(255, 255, 255, 1) = white
+
+            - HEX
+                digits
+                    0-9, A-F
+                - 6 digit
+                    #00000000 (last 2 0's for Alpha)
+                    #ffffff
+                    #123456
+                    #abcdef
+                    #a1b2c3
+                - 3 digit
+                    #000
+                    #fff
+
+            - HSL (Hue (deg), Saturation %, Lightness %)
+            - HSLA (Hue, Saturation, Lightness, Alpha)
+
+Font File Types
+    - ttf - true type font
+    - otf - open type font
+    - woff - web open file format
+    - eot - embedded open type
+    - svg - scalar vector graphics
+
+
+NOTES: 10-03-2023
+
+Spacing: 
+    - margin
+    - padding
+
+Sizing:
+    - width
+    - height
+
+Direction:
+    - top
+    - right
+    - bottom
+    - left
